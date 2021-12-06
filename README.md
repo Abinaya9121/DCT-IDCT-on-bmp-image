@@ -1,5 +1,6 @@
 # DCT-IDCT-on-bmp-image
-Compressing a bmp image using discrete cosine transform, coefficient quantization and performed inverse discrete cosine transformed and calculated the PSNR value of the **Steps**<br><br>
+Compressing a bmp image using discrete cosine transform, coefficient quantization and performed inverse discrete cosine transformed and calculated the PSNR value of the 
+<br><br>Steps<br><br>
 <li>The bmp image was converted to ycbcr format and then the y was taken to perform compression
 <li>The image was partitioned into uniform blocks of 8*8 matrices
 <li>Each matrix was transformed using Discrete cosine transform
